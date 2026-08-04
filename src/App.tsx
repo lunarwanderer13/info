@@ -1,3 +1,5 @@
+import Header from "./components/header/Header.tsx"
+
 function App() {
   return (
     <main className="h-screen bg-purple-950 flex items-center justify-center">
@@ -11,7 +13,7 @@ function App() {
           overflow-x-hidden overflow-y-auto
         "
       >
-
+        <Header />
       </div>
     </main>
   )
