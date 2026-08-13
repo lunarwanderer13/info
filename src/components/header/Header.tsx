@@ -18,7 +18,7 @@ function Header() {
           absolute
           left-20
           w-70 h-50
-          bg-linear-to-r from-orange-500 to-orange-300/0
+          bg-linear-to-r from-orange-500/50 to-orange-300/0
         "
       />
       <div
@@ -26,7 +26,7 @@ function Header() {
           absolute
           -top-30 -left-30
           w-100 h-100
-          bg-radial from-orange-500 from-40% to-orange-300/0 to-60%
+          bg-radial from-orange-500 to-orange-300/0 to-50%
         "
       />
 
