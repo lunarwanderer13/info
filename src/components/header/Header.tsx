@@ -24,9 +24,9 @@ function Header() {
       <div
         className="
           absolute
-          -top-30 -left-30
-          w-100 h-100
-          bg-radial from-orange-500 to-orange-300/0 to-50%
+          -top-20 -left-20
+          w-90 h-90
+          bg-radial from-orange-500 from-30% to-orange-300/0 to-70%
         "
       />
 
@@ -37,7 +37,7 @@ function Header() {
         className="
           absolute
           -top-10 -left-10
-          w-60 h-60
+          w-70 h-70
           rounded-full
         "
       />
