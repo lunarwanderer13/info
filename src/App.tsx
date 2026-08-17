@@ -1,4 +1,7 @@
+import { Author } from "./author/Author.ts"
 import Header from "./components/header/Header.tsx"
+import Section from "./components/section/Section"
+import Column from "./components/section/column/Column.tsx"
 
 function App() {
   return (
@@ -14,6 +17,14 @@ function App() {
         "
       >
         <Header />
+
+        <Section
+          header="Basic Info"
+          description="Some basic info about me for when we're just getting to know each other."
+        >
+          <Column header="Names" description="" items={Author.names} />
+          <Column header="Pronouns" description="" items={Author.pronouns} />
+        </Section>
       </div>
     </main>
   )
