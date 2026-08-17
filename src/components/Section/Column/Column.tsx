@@ -2,7 +2,7 @@ import type { ColumnProps } from "./Column.types.ts"
 
 function Column({ header, description, items }: ColumnProps) {
   return (
-    <section className="m-5 text-white text-shadow-md">
+    <section className="my-5 mx-10 sm:mx-5 text-white text-shadow-md">
       {header && <h1 className="text-xl font-extrabold mx-5">{header}</h1>}
       {description && <h3 className="text-sm font-bold mx-5">{description}</h3>}
       <hr className="my-1" />
