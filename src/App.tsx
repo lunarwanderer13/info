@@ -24,6 +24,7 @@ function App() {
           description="Some basic info about me for when we're just getting to know each other."
         >
           <Column header="Names" description="" items={Author.names} />
+          <Column header="Nicknames" description="" items={Author.nicknames} />
           <Column header="Pronouns" description="" items={Author.pronouns} />
         </Section>
       </div>
