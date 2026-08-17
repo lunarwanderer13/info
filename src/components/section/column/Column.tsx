@@ -9,9 +9,20 @@ function Column({ header, description, items }: ColumnProps) {
       <ul className="mx-5">
         {items.map((item) => (
           <li key={item.text} title={item.level.text}>
-            &gt;&nbsp;
+            {item.level.value === 5
+              ? "🌟"
+              : item.level.value === 1
+                ? "❌"
+                : ">"}
+            &nbsp;
             <span
-              className={item.level.value === 5 ? "font-bold" : "font-normal"}
+              className={
+                item.level.value === 5
+                  ? "text-sky-300 font-bold"
+                  : item.level.value === 1
+                    ? "text-red-500 font-bold"
+                    : "text-white font-normal"
+              }
             >
               {item.text}
             </span>
