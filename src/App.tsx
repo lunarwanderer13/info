@@ -1,8 +1,8 @@
 import { Author } from "./author/Author.ts"
-import Header from "./components/header/Header.tsx"
-import Section from "./components/section/Section"
-import Column from "./components/section/column/Column.tsx"
-import WorkInProgress from "./components/dev/WorkInProgress/WorkInProgress.tsx"
+import Header from "./components/Header/Header.tsx"
+import Section from "./components/Section/Section"
+import Column from "./components/Section/Column/Column.tsx"
+import WorkInProgress from "./components/Dev/WorkInProgress/WorkInProgress.tsx"
 
 function App() {
   return (
