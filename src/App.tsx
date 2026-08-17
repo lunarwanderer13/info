@@ -2,6 +2,7 @@ import { Author } from "./author/Author.ts"
 import Header from "./components/header/Header.tsx"
 import Section from "./components/section/Section"
 import Column from "./components/section/column/Column.tsx"
+import WorkInProgress from "./components/dev/WorkInProgress/WorkInProgress.tsx"
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           <Column header="Pronouns" description="" items={Author.pronouns} />
         </Section>
       </div>
+
+      <WorkInProgress />
     </main>
   )
 }
