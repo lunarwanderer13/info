@@ -30,6 +30,12 @@ export const Author: AuthorTypes = {
       level: TraitLevels[5],
     },
     {
+      text: "Luna",
+      level: TraitLevels[3],
+    },
+  ],
+  nicknames: [
+    {
       text: "Mika",
       level: TraitLevels[5],
     },
@@ -38,8 +44,8 @@ export const Author: AuthorTypes = {
       level: TraitLevels[5],
     },
     {
-      text: "Luna",
-      level: TraitLevels[3],
+      text: "Miku",
+      level: TraitLevels[4],
     },
   ],
   pronouns: [
