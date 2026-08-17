@@ -14,6 +14,12 @@ function Section({ header, description, children }: SectionProps) {
         </h3>
       )}
 
+      {(header || description) && (
+        <h6 className="w-1/2 text-xs text-gray-300 font-light italic text-shadow-xs mx-3">
+          Hover over the content for tooltips.
+        </h6>
+      )}
+
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-8">
         {children}
       </section>
