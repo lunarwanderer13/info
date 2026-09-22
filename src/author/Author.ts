@@ -62,4 +62,24 @@ export const Author: AuthorTypes = {
       level: TraitLevels[1],
     },
   ],
+  car: [
+    {
+      text: "Mazda mx-5 Miata soft-top 1996 mwemememwmwmw",
+      level: TraitLevels[5],
+    },
+  ],
+  interests: [
+    {
+      text: "Game Development",
+      level: TraitLevels[5],
+    },
+    {
+      text: "Drawing",
+      level: TraitLevels[5],
+    },
+    {
+      text: "Video Games",
+      level: TraitLevels[4],
+    },
+  ],
 }

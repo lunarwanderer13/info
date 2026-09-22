@@ -26,6 +26,8 @@ function App() {
           <Column header="Names" description="" items={Author.names} />
           <Column header="Nicknames" description="" items={Author.nicknames} />
           <Column header="Pronouns" description="" items={Author.pronouns} />
+          <Column header="Car" description="The only right answer." items={Author.car} />
+          <Column header="Interests" description="" items={Author.interests} />
         </Section>
       </div>
 

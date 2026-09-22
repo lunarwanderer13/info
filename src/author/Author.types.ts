@@ -12,4 +12,6 @@ export interface AuthorTypes {
   names: Trait[]
   nicknames: Trait[]
   pronouns: Trait[]
+  car: Trait[]
+  interests: Trait[]
 }
